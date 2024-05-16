@@ -2,6 +2,15 @@
 ### Bringing Spotify API and your personal databases together.
 ### Gives the ability to intake song information from Spotify's API so you can create your own playlists.
 
+
+## Setup
+
+### Use the "pip install -r requirements.txt" command
+### Make sure to git clone the Spotify js to python port
+### Follow the instructions in the Spotify README
+
+
+
 ## GET
 ### Any endpoint starting with /Spotify ties directly into the spotify database.
 ### Any endpoint starting with /Database ties to your personal database.
