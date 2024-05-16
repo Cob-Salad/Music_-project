@@ -7,9 +7,6 @@ class SearchParams(Enum):
     ALBUMS = "album"
     TRACKS = "track"
 
-
-
-
 class PlaylistSongLink(SQLModel,table=True):
     song_id: str = Field(foreign_key="song.song_id", primary_key=True)
     playlist_id: int = Field(foreign_key="playlist.playlist_id", primary_key=True)
