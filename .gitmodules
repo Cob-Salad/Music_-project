@@ -1,0 +1,3 @@
+[submodule "spotify.py"]
+	path = spotify.py
+	url = https://github.com/mental32/spotify.py

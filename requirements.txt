@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+alembic
+psycopg2
+python-decouple
+sqlmodel
+requests
+pytest
